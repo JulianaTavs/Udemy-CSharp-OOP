@@ -1,0 +1,14 @@
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\bin\Debug\net8.0\Ex11OutraVersao.exe
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\bin\Debug\net8.0\Ex11OutraVersao.deps.json
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\bin\Debug\net8.0\Ex11OutraVersao.runtimeconfig.json
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\bin\Debug\net8.0\Ex11OutraVersao.dll
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\bin\Debug\net8.0\Ex11OutraVersao.pdb
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\obj\Debug\net8.0\Ex11OutraVersao.GeneratedMSBuildEditorConfig.editorconfig
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\obj\Debug\net8.0\Ex11OutraVersao.AssemblyInfoInputs.cache
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\obj\Debug\net8.0\Ex11OutraVersao.AssemblyInfo.cs
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\obj\Debug\net8.0\Ex11OutraVersao.csproj.CoreCompileInputs.cache
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\obj\Debug\net8.0\Ex11OutraVersao.dll
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\obj\Debug\net8.0\refint\Ex11OutraVersao.dll
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\obj\Debug\net8.0\Ex11OutraVersao.pdb
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\obj\Debug\net8.0\Ex11OutraVersao.genruntimeconfig.cache
+C:\UdemyExerciciosCSharp\Ex11OutraVersao\obj\Debug\net8.0\ref\Ex11OutraVersao.dll

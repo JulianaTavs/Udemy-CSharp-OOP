@@ -1,0 +1,14 @@
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\bin\Debug\net8.0\Ex18AgainParaTreinar.exe
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\bin\Debug\net8.0\Ex18AgainParaTreinar.deps.json
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\bin\Debug\net8.0\Ex18AgainParaTreinar.runtimeconfig.json
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\bin\Debug\net8.0\Ex18AgainParaTreinar.dll
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\bin\Debug\net8.0\Ex18AgainParaTreinar.pdb
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\obj\Debug\net8.0\Ex18AgainParaTreinar.GeneratedMSBuildEditorConfig.editorconfig
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\obj\Debug\net8.0\Ex18AgainParaTreinar.AssemblyInfoInputs.cache
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\obj\Debug\net8.0\Ex18AgainParaTreinar.AssemblyInfo.cs
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\obj\Debug\net8.0\Ex18AgainParaTreinar.csproj.CoreCompileInputs.cache
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\obj\Debug\net8.0\Ex18AgainParaTreinar.dll
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\obj\Debug\net8.0\refint\Ex18AgainParaTreinar.dll
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\obj\Debug\net8.0\Ex18AgainParaTreinar.pdb
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\obj\Debug\net8.0\Ex18AgainParaTreinar.genruntimeconfig.cache
+D:\UdemyExerciciosCSharp\Ex18AgainParaTreinar\obj\Debug\net8.0\ref\Ex18AgainParaTreinar.dll

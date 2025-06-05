@@ -1,0 +1,14 @@
+C:\UdemyExerciciosCSharp\Ex04\bin\Debug\net8.0\Ex04.exe
+C:\UdemyExerciciosCSharp\Ex04\bin\Debug\net8.0\Ex04.deps.json
+C:\UdemyExerciciosCSharp\Ex04\bin\Debug\net8.0\Ex04.runtimeconfig.json
+C:\UdemyExerciciosCSharp\Ex04\bin\Debug\net8.0\Ex04.dll
+C:\UdemyExerciciosCSharp\Ex04\bin\Debug\net8.0\Ex04.pdb
+C:\UdemyExerciciosCSharp\Ex04\obj\Debug\net8.0\Ex04.GeneratedMSBuildEditorConfig.editorconfig
+C:\UdemyExerciciosCSharp\Ex04\obj\Debug\net8.0\Ex04.AssemblyInfoInputs.cache
+C:\UdemyExerciciosCSharp\Ex04\obj\Debug\net8.0\Ex04.AssemblyInfo.cs
+C:\UdemyExerciciosCSharp\Ex04\obj\Debug\net8.0\Ex04.csproj.CoreCompileInputs.cache
+C:\UdemyExerciciosCSharp\Ex04\obj\Debug\net8.0\Ex04.dll
+C:\UdemyExerciciosCSharp\Ex04\obj\Debug\net8.0\refint\Ex04.dll
+C:\UdemyExerciciosCSharp\Ex04\obj\Debug\net8.0\Ex04.pdb
+C:\UdemyExerciciosCSharp\Ex04\obj\Debug\net8.0\Ex04.genruntimeconfig.cache
+C:\UdemyExerciciosCSharp\Ex04\obj\Debug\net8.0\ref\Ex04.dll

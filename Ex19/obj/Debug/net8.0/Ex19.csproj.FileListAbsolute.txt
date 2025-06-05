@@ -1,0 +1,14 @@
+D:\UdemyExerciciosCSharp\Ex19\bin\Debug\net8.0\Ex19.exe
+D:\UdemyExerciciosCSharp\Ex19\bin\Debug\net8.0\Ex19.deps.json
+D:\UdemyExerciciosCSharp\Ex19\bin\Debug\net8.0\Ex19.runtimeconfig.json
+D:\UdemyExerciciosCSharp\Ex19\bin\Debug\net8.0\Ex19.dll
+D:\UdemyExerciciosCSharp\Ex19\bin\Debug\net8.0\Ex19.pdb
+D:\UdemyExerciciosCSharp\Ex19\obj\Debug\net8.0\Ex19.GeneratedMSBuildEditorConfig.editorconfig
+D:\UdemyExerciciosCSharp\Ex19\obj\Debug\net8.0\Ex19.AssemblyInfoInputs.cache
+D:\UdemyExerciciosCSharp\Ex19\obj\Debug\net8.0\Ex19.AssemblyInfo.cs
+D:\UdemyExerciciosCSharp\Ex19\obj\Debug\net8.0\Ex19.csproj.CoreCompileInputs.cache
+D:\UdemyExerciciosCSharp\Ex19\obj\Debug\net8.0\Ex19.dll
+D:\UdemyExerciciosCSharp\Ex19\obj\Debug\net8.0\refint\Ex19.dll
+D:\UdemyExerciciosCSharp\Ex19\obj\Debug\net8.0\Ex19.pdb
+D:\UdemyExerciciosCSharp\Ex19\obj\Debug\net8.0\Ex19.genruntimeconfig.cache
+D:\UdemyExerciciosCSharp\Ex19\obj\Debug\net8.0\ref\Ex19.dll

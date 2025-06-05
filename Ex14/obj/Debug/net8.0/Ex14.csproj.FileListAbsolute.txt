@@ -1,0 +1,14 @@
+D:\UdemyExerciciosCSharp\Ex14\bin\Debug\net8.0\Ex14.exe
+D:\UdemyExerciciosCSharp\Ex14\bin\Debug\net8.0\Ex14.deps.json
+D:\UdemyExerciciosCSharp\Ex14\bin\Debug\net8.0\Ex14.runtimeconfig.json
+D:\UdemyExerciciosCSharp\Ex14\bin\Debug\net8.0\Ex14.dll
+D:\UdemyExerciciosCSharp\Ex14\bin\Debug\net8.0\Ex14.pdb
+D:\UdemyExerciciosCSharp\Ex14\obj\Debug\net8.0\Ex14.GeneratedMSBuildEditorConfig.editorconfig
+D:\UdemyExerciciosCSharp\Ex14\obj\Debug\net8.0\Ex14.AssemblyInfoInputs.cache
+D:\UdemyExerciciosCSharp\Ex14\obj\Debug\net8.0\Ex14.AssemblyInfo.cs
+D:\UdemyExerciciosCSharp\Ex14\obj\Debug\net8.0\Ex14.csproj.CoreCompileInputs.cache
+D:\UdemyExerciciosCSharp\Ex14\obj\Debug\net8.0\Ex14.dll
+D:\UdemyExerciciosCSharp\Ex14\obj\Debug\net8.0\refint\Ex14.dll
+D:\UdemyExerciciosCSharp\Ex14\obj\Debug\net8.0\Ex14.pdb
+D:\UdemyExerciciosCSharp\Ex14\obj\Debug\net8.0\Ex14.genruntimeconfig.cache
+D:\UdemyExerciciosCSharp\Ex14\obj\Debug\net8.0\ref\Ex14.dll

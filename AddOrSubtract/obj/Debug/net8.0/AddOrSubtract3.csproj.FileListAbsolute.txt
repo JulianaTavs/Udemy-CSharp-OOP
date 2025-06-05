@@ -1,0 +1,14 @@
+D:\UdemyExerciciosCSharp\AddOrSubtract3\obj\Debug\net8.0\AddOrSubtract3.GeneratedMSBuildEditorConfig.editorconfig
+D:\UdemyExerciciosCSharp\AddOrSubtract3\obj\Debug\net8.0\AddOrSubtract3.AssemblyInfoInputs.cache
+D:\UdemyExerciciosCSharp\AddOrSubtract3\obj\Debug\net8.0\AddOrSubtract3.AssemblyInfo.cs
+D:\UdemyExerciciosCSharp\AddOrSubtract3\obj\Debug\net8.0\AddOrSubtract3.csproj.CoreCompileInputs.cache
+D:\UdemyExerciciosCSharp\AddOrSubtract3\bin\Debug\net8.0\AddOrSubtract3.exe
+D:\UdemyExerciciosCSharp\AddOrSubtract3\bin\Debug\net8.0\AddOrSubtract3.deps.json
+D:\UdemyExerciciosCSharp\AddOrSubtract3\bin\Debug\net8.0\AddOrSubtract3.runtimeconfig.json
+D:\UdemyExerciciosCSharp\AddOrSubtract3\bin\Debug\net8.0\AddOrSubtract3.dll
+D:\UdemyExerciciosCSharp\AddOrSubtract3\bin\Debug\net8.0\AddOrSubtract3.pdb
+D:\UdemyExerciciosCSharp\AddOrSubtract3\obj\Debug\net8.0\AddOrSubtract3.dll
+D:\UdemyExerciciosCSharp\AddOrSubtract3\obj\Debug\net8.0\refint\AddOrSubtract3.dll
+D:\UdemyExerciciosCSharp\AddOrSubtract3\obj\Debug\net8.0\AddOrSubtract3.pdb
+D:\UdemyExerciciosCSharp\AddOrSubtract3\obj\Debug\net8.0\AddOrSubtract3.genruntimeconfig.cache
+D:\UdemyExerciciosCSharp\AddOrSubtract3\obj\Debug\net8.0\ref\AddOrSubtract3.dll

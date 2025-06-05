@@ -1,0 +1,14 @@
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\bin\Debug\net8.0\Ex14OutraFormaDeResolver.exe
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\bin\Debug\net8.0\Ex14OutraFormaDeResolver.deps.json
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\bin\Debug\net8.0\Ex14OutraFormaDeResolver.runtimeconfig.json
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\bin\Debug\net8.0\Ex14OutraFormaDeResolver.dll
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\bin\Debug\net8.0\Ex14OutraFormaDeResolver.pdb
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\obj\Debug\net8.0\Ex14OutraFormaDeResolver.GeneratedMSBuildEditorConfig.editorconfig
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\obj\Debug\net8.0\Ex14OutraFormaDeResolver.AssemblyInfoInputs.cache
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\obj\Debug\net8.0\Ex14OutraFormaDeResolver.AssemblyInfo.cs
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\obj\Debug\net8.0\Ex14OutraFormaDeResolver.csproj.CoreCompileInputs.cache
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\obj\Debug\net8.0\Ex14OutraFormaDeResolver.dll
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\obj\Debug\net8.0\refint\Ex14OutraFormaDeResolver.dll
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\obj\Debug\net8.0\Ex14OutraFormaDeResolver.pdb
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\obj\Debug\net8.0\Ex14OutraFormaDeResolver.genruntimeconfig.cache
+D:\UdemyExerciciosCSharp\Ex14OutraFormaDeResolver\obj\Debug\net8.0\ref\Ex14OutraFormaDeResolver.dll

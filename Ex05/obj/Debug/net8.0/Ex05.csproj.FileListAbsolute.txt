@@ -1,0 +1,14 @@
+C:\UdemyExerciciosCSharp\Ex05\bin\Debug\net8.0\Ex05.exe
+C:\UdemyExerciciosCSharp\Ex05\bin\Debug\net8.0\Ex05.deps.json
+C:\UdemyExerciciosCSharp\Ex05\bin\Debug\net8.0\Ex05.runtimeconfig.json
+C:\UdemyExerciciosCSharp\Ex05\bin\Debug\net8.0\Ex05.dll
+C:\UdemyExerciciosCSharp\Ex05\bin\Debug\net8.0\Ex05.pdb
+C:\UdemyExerciciosCSharp\Ex05\obj\Debug\net8.0\Ex05.GeneratedMSBuildEditorConfig.editorconfig
+C:\UdemyExerciciosCSharp\Ex05\obj\Debug\net8.0\Ex05.AssemblyInfoInputs.cache
+C:\UdemyExerciciosCSharp\Ex05\obj\Debug\net8.0\Ex05.AssemblyInfo.cs
+C:\UdemyExerciciosCSharp\Ex05\obj\Debug\net8.0\Ex05.csproj.CoreCompileInputs.cache
+C:\UdemyExerciciosCSharp\Ex05\obj\Debug\net8.0\Ex05.dll
+C:\UdemyExerciciosCSharp\Ex05\obj\Debug\net8.0\refint\Ex05.dll
+C:\UdemyExerciciosCSharp\Ex05\obj\Debug\net8.0\Ex05.pdb
+C:\UdemyExerciciosCSharp\Ex05\obj\Debug\net8.0\Ex05.genruntimeconfig.cache
+C:\UdemyExerciciosCSharp\Ex05\obj\Debug\net8.0\ref\Ex05.dll

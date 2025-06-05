@@ -1,0 +1,14 @@
+D:\UdemyExerciciosCSharp\Ex13\obj\Debug\net8.0\Ex13.GeneratedMSBuildEditorConfig.editorconfig
+D:\UdemyExerciciosCSharp\Ex13\obj\Debug\net8.0\Ex13.AssemblyInfoInputs.cache
+D:\UdemyExerciciosCSharp\Ex13\obj\Debug\net8.0\Ex13.AssemblyInfo.cs
+D:\UdemyExerciciosCSharp\Ex13\obj\Debug\net8.0\Ex13.csproj.CoreCompileInputs.cache
+D:\UdemyExerciciosCSharp\Ex13\bin\Debug\net8.0\Ex13.exe
+D:\UdemyExerciciosCSharp\Ex13\bin\Debug\net8.0\Ex13.deps.json
+D:\UdemyExerciciosCSharp\Ex13\bin\Debug\net8.0\Ex13.runtimeconfig.json
+D:\UdemyExerciciosCSharp\Ex13\bin\Debug\net8.0\Ex13.dll
+D:\UdemyExerciciosCSharp\Ex13\bin\Debug\net8.0\Ex13.pdb
+D:\UdemyExerciciosCSharp\Ex13\obj\Debug\net8.0\Ex13.dll
+D:\UdemyExerciciosCSharp\Ex13\obj\Debug\net8.0\refint\Ex13.dll
+D:\UdemyExerciciosCSharp\Ex13\obj\Debug\net8.0\Ex13.pdb
+D:\UdemyExerciciosCSharp\Ex13\obj\Debug\net8.0\Ex13.genruntimeconfig.cache
+D:\UdemyExerciciosCSharp\Ex13\obj\Debug\net8.0\ref\Ex13.dll
