@@ -1,6 +1,4 @@
-﻿using System.Globalization;
-using Ex21;
-
+﻿using Ex21;
 
 GettingValidData gettingValidData = new GettingValidData();
 
@@ -38,9 +36,11 @@ for (int i = 0; i < number; i++)
         allEmployees.Add(new Employee(name, hours, valuePerHour));
     }
 }
+
 Console.WriteLine();
 Console.WriteLine("Payments: ");
 Console.WriteLine("------------------------------");
+
 foreach (Employee item in allEmployees)
 {
     Console.WriteLine($"{item.Name}: $ {item.Payment()}");

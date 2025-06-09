@@ -1,5 +1,3 @@
-using System.Text;
-
 namespace Ex21
 {
     public class Employee
