@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Udemy CSharp & OOP\\Ex20\\Ex20.csproj": {}
+    "D:\\Udemy CSharp & OOP\\Ex22\\Ex22.csproj": {}
   },
   "projects": {
-    "D:\\Udemy CSharp & OOP\\Ex20\\Ex20.csproj": {
+    "D:\\Udemy CSharp & OOP\\Ex22\\Ex22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Udemy CSharp & OOP\\Ex20\\Ex20.csproj",
-        "projectName": "Ex20",
-        "projectPath": "D:\\Udemy CSharp & OOP\\Ex20\\Ex20.csproj",
+        "projectUniqueName": "D:\\Udemy CSharp & OOP\\Ex22\\Ex22.csproj",
+        "projectName": "Ex22",
+        "projectPath": "D:\\Udemy CSharp & OOP\\Ex22\\Ex22.csproj",
         "packagesPath": "C:\\Users\\juu_t\\.nuget\\packages\\",
-        "outputPath": "D:\\Udemy CSharp & OOP\\Ex20\\obj\\",
+        "outputPath": "D:\\Udemy CSharp & OOP\\Ex22\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juu_t\\AppData\\Roaming\\NuGet\\NuGet.Config"
