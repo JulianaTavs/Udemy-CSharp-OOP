@@ -21,6 +21,19 @@ namespace Ex25
         }
         public void UpdateDates(DateTime checkin, DateTime checkout)
         {
+            // Validação 1: Check-in não pode ser no passado
+            if (checkin.Date < DateTime.Today.Date)
+            {
+                // Lança uma exceção controlada
+                throw new ReservationException($" A data de check-in '{checkin.ToShortDateString()}' deve ser hoje ou no futuro.");
+            }
+            // Validação 2: Check-out deve ser maior que check-in
+            if (checkout.Date <= checkin.Date) // Usamos <= para garantir que checkout seja estritamente depois
+            {
+                // Lança uma exceção controlada
+                throw new ReservationException($" A data de check-out '{checkout.ToShortDateString()}' deve ser maior que a data de check-in '{checkin.ToShortDateString()}'.");
+            }
+            // Se passou pelas validações, as datas são válidas e podem ser atribuídas
             CheckIn = checkin;
             CheckOut = checkout;
         }

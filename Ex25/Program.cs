@@ -1,5 +1,4 @@
-﻿
-using Ex25;
+﻿using Ex25;
 
 List<Reservation> reservations = new List<Reservation>();
 GettingValidData data = new GettingValidData();
@@ -12,10 +11,10 @@ for (int i = 1; i <= numberofReservations; i++)
     int roomNumber = data.GetAValidInt($"Room number {i}: ",
     "Invalid input. Please enter a valid integer room number: ");
 
-    DateTime CheckInParsedDate = data.GetAValidCheckInDate();
-    DateTime CheckOutParsedDate = data.GetAValidCheckOutDate();
+    DateTime checkInParsedDate = data.GetAValidCheckInDate();
+    DateTime checkOutParsedDate = data.GetAValidCheckOutDate(checkInParsedDate);
 
-    reservations.Add(new Reservation(roomNumber, CheckInParsedDate, CheckOutParsedDate));
+    reservations.Add(new Reservation(roomNumber, checkInParsedDate, checkOutParsedDate));
 }
 
 for (int i = 1; i <= numberofReservations; i++)
@@ -24,11 +23,55 @@ for (int i = 1; i <= numberofReservations; i++)
 }
 
 Console.Write("Would you like to update any reservation? ");
-int j = data.GetAValidNumberOfTheReservation();
-DateTime updatedCheckIn = data.GetAValidCheckInDate();
-DateTime updatedCheckOut = data.GetAValidCheckOutDate();
+Console.WriteLine("Enter y for yes or n for no: ");
+char userChoice = data.GetAValidChar();
+int j = 0;
 
-reservations[j - 1].UpdateDates(updatedCheckIn, updatedCheckOut);
+switch (userChoice)
+{
+    case 'y':
+
+        j = data.GetAValidInt("Which reservation would you like to update? ",
+        "Invalid input. Please enter a valid integer for the number of the " +
+        "reservation: ");
+
+        break;
+
+    case 'n':
+        Console.WriteLine("Okay. We are closing the application.");
+        Environment.Exit(0);
+        break;
+}
+
+
+while (true)
+{
+    if (j >= 1 && j <= reservations.Count)
+    {
+
+        DateTime updatedCheckIn = data.GetAValidCheckInDate();
+
+        DateTime updatedCheckOut = data.GetAValidCheckOutDate(updatedCheckIn);
+
+        try
+        {
+            reservations[j - 1].UpdateDates(updatedCheckIn, updatedCheckOut);
+            // Se chegou aqui, a atualização foi bem-sucedida, podemos sair do loop
+            Console.WriteLine("Reserva atualizada com sucesso!");
+            break;
+        }
+        catch (ReservationException ex) // Captura a exceção específica lançada por Reservation
+        {
+            Console.WriteLine($"Falha ao atualizar a reserva: {ex.Message}");
+            // Não damos 'break' aqui, o loop continua e o usuário é repromptado pelas novas datas
+        }
+    }
+    else
+    {
+        Console.WriteLine($"Choose the number of the reservation between 1 and {reservations.Count}: ");
+    }
+
+}
 
 for (int i = 1; i <= numberofReservations; i++)
 {

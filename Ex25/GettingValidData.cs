@@ -4,7 +4,6 @@ namespace Ex25
 {
     class GettingValidData
     {
-        DateTime CheckInParsedDate;
         public DateTime GetAValidCheckInDate()
         {
             while (true)
@@ -14,7 +13,7 @@ namespace Ex25
                 string CheckInDate = Console.ReadLine();
                 // Try to parse the inputDate string using the defined format:
                 if (DateTime.TryParseExact(CheckInDate, "dd/MM/yyyy", CultureInfo.InvariantCulture,
-                DateTimeStyles.None, out CheckInParsedDate))
+                DateTimeStyles.None, out DateTime CheckInParsedDate))
                 {
                     if (CheckInParsedDate.Date >= DateTime.Today.Date)
                     {
@@ -25,7 +24,7 @@ namespace Ex25
                     else
                     {
                         Console.WriteLine($"Error in reservation: The date " +
-                        "'{CheckInParsedDate.ToShortDateString()}' must be in the future. ");
+                        $"'{CheckInParsedDate.ToShortDateString()}' must be in the future. ");
                     }
 
                 }
@@ -35,9 +34,9 @@ namespace Ex25
                 }
             }
         }
-        public DateTime GetAValidCheckOutDate()
+        public DateTime GetAValidCheckOutDate(DateTime checkInReferenceDate)
         {
-            DateTime CheckOutParsedDate;
+            DateTime checkOutParsedDate;
 
             while (true)
             {
@@ -45,21 +44,21 @@ namespace Ex25
                 string CheckOutDate = Console.ReadLine();
                 // Try to parse the CheckOutDate string using the defined format:
                 if (DateTime.TryParseExact(CheckOutDate, "dd/MM/yyyy", CultureInfo.InvariantCulture,
-                DateTimeStyles.None, out CheckOutParsedDate))
+                DateTimeStyles.None, out checkOutParsedDate))
                 {
                     // Se PARSEOU com sucesso, verifica as REGRAS DE NEGÓCIO:
-                    if (CheckOutParsedDate.Date > CheckInParsedDate.Date)
+                    if (checkOutParsedDate.Date > checkInReferenceDate.Date)
                     {
                         // Console.WriteLine("Check-out date parsed and accepted successfully: " +
                         // $"{CheckOutParsedDate.ToShortDateString()}");
-                        return CheckOutParsedDate; // A entrada é válida (parse e regra de negócio), sai do loop
+                        return checkOutParsedDate; // A entrada é válida (parse e regra de negócio), sai do loop
                     }
                     else
                     {
                         // Regra de negócio falhou
                         Console.WriteLine($"Error in reservation: The check-out date" +
-                        $" '{CheckOutParsedDate.ToShortDateString()}' must be greater than the " +
-                        $"check -in date '{CheckInParsedDate.ToShortDateString()}'");
+                        $" '{checkOutParsedDate.ToShortDateString()}' must be greater than the " +
+                        $"check -in date '{checkInReferenceDate.ToShortDateString()}'");
                         // O loop continua, pedindo nova entrada
                     }
                 }
@@ -72,47 +71,30 @@ namespace Ex25
 
             }
         }
-        public int GetAValidInt(string message, string message2)
+        public int GetAValidInt(string prompt, string errorMessage)
         {
-            Console.Write(message);
-
             while (true)
             {
+                Console.Write(prompt);
                 if (int.TryParse(Console.ReadLine(), out int output))
                 {
                     return output;
                 }
                 else
                 {
-                    Console.WriteLine(message2);
+                    Console.WriteLine(errorMessage);
                 }
             }
         }
-        public int GetAValidNumberOfTheReservation()
+        public char GetAValidChar()
         {
             while (true)
             {
-                Console.WriteLine("Enter y for yes or n for no: ");
 
-                string input = Console.ReadLine();
-
-                if (char.TryParse(input, out char output) && (output == 'y' || output == 'n'))
+                if (char.TryParse(Console.ReadLine().ToLower(), out char output) &&
+                (output == 'y' || output == 'n'))
                 {
-                    switch (output)
-                    {
-                        case 'y':
-
-                            int reservation = GetAValidInt("Which reservation would you like to update? ",
-                            "Invalid input. Please enter a valid integer for the number of the " +
-                            "reservation: ");
-
-                            return reservation;
-
-                        case 'n':
-                            Console.WriteLine("Okay. We are closing the application.");
-                            Environment.Exit(0);
-                            break;
-                    }
+                    return output;
                 }
                 else
                 {
@@ -120,5 +102,6 @@ namespace Ex25
                 }
             }
         }
+        
     }
 }
