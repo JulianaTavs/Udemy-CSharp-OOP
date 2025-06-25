@@ -43,7 +43,6 @@ switch (userChoice)
         break;
 }
 
-
 while (true)
 {
     if (j >= 1 && j <= reservations.Count)

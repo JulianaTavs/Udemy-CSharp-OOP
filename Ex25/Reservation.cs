@@ -37,7 +37,6 @@ namespace Ex25
             CheckIn = checkin;
             CheckOut = checkout;
         }
-
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder("Reservation: ");
