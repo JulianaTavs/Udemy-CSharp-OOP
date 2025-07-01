@@ -25,13 +25,16 @@ namespace Ex25
             if (checkin.Date < DateTime.Today.Date)
             {
                 // Lança uma exceção controlada
-                throw new ReservationException($" A data de check-in '{checkin.ToShortDateString()}' deve ser hoje ou no futuro.");
+                throw new ReservationException($" A data de check-in '{checkin.ToShortDateString()}' "
+                + "deve ser hoje ou no futuro.");
             }
             // Validação 2: Check-out deve ser maior que check-in
-            if (checkout.Date <= checkin.Date) // Usamos <= para garantir que checkout seja estritamente depois
+            if (checkout.Date <= checkin.Date) // Usamos <= para garantir que checkout seja
+            //  estritamente depois
             {
                 // Lança uma exceção controlada
-                throw new ReservationException($" A data de check-out '{checkout.ToShortDateString()}' deve ser maior que a data de check-in '{checkin.ToShortDateString()}'.");
+                throw new ReservationException($" A data de check-out '{checkout.ToShortDateString()}' "
+                + $"deve ser maior que a data de check-in '{checkin.ToShortDateString()}'.");
             }
             // Se passou pelas validações, as datas são válidas e podem ser atribuídas
             CheckIn = checkin;

@@ -1,10 +1,9 @@
 namespace Ex25
 {
-    class ReservationException : ApplicationException
+    class ReservationException : Exception
     {
         public ReservationException(string Message): base(Message)
         {
-            
         }
     }
 }
