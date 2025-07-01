@@ -10,27 +10,26 @@ namespace Ex25
             {
                 Console.Write("Check-in date(dd/MM/yyyy): ");
 
-                string CheckInDate = Console.ReadLine();
-                // Try to parse the inputDate string using the defined format:
-                if (DateTime.TryParseExact(CheckInDate, "dd/MM/yyyy", CultureInfo.InvariantCulture,
-                DateTimeStyles.None, out DateTime CheckInParsedDate))
+                string checkInDate = Console.ReadLine();
+                // Try to parse the CheckInDate string using the defined format:
+                if (DateTime.TryParseExact(checkInDate, "dd/MM/yyyy", CultureInfo.InvariantCulture,
+                DateTimeStyles.None, out DateTime checkInParsedDate))
                 {
-                    if (CheckInParsedDate.Date >= DateTime.Today.Date)
+                    if (checkInParsedDate.Date >= DateTime.Today.Date)
                     {
-                        // Console.WriteLine("Check-in date parsed and accepted successfully: " +
-                        // $"{CheckInParsedDate.ToShortDateString()}");
-                        return CheckInParsedDate;
+                        return checkInParsedDate;
                     }
                     else
                     {
                         Console.WriteLine($"Error in reservation: The date " +
-                        $"'{CheckInParsedDate.ToShortDateString()}' must be in the future. ");
+                        $"'{checkInParsedDate.ToShortDateString()}' must be in the future. ");
                     }
 
                 }
                 else
                 {
-                    Console.WriteLine("Invalid date. Please enter a date in the format 'dd/MM/yyyy': ");
+                    Console.WriteLine("Invalid date. Please enter a date in the format " +
+                    "'dd/MM/yyyy': ");
                 }
             }
         }
@@ -41,16 +40,14 @@ namespace Ex25
             while (true)
             {
                 Console.Write("Check-out date(dd/MM/yyyy): ");
-                string CheckOutDate = Console.ReadLine();
+                string checkOutDate = Console.ReadLine();
                 // Try to parse the CheckOutDate string using the defined format:
-                if (DateTime.TryParseExact(CheckOutDate, "dd/MM/yyyy", CultureInfo.InvariantCulture,
+                if (DateTime.TryParseExact(checkOutDate, "dd/MM/yyyy", CultureInfo.InvariantCulture,
                 DateTimeStyles.None, out checkOutParsedDate))
                 {
                     // Se PARSEOU com sucesso, verifica as REGRAS DE NEGÓCIO:
                     if (checkOutParsedDate.Date > checkInReferenceDate.Date)
                     {
-                        // Console.WriteLine("Check-out date parsed and accepted successfully: " +
-                        // $"{CheckOutParsedDate.ToShortDateString()}");
                         return checkOutParsedDate; // A entrada é válida (parse e regra de negócio), sai do loop
                     }
                     else
@@ -58,7 +55,7 @@ namespace Ex25
                         // Regra de negócio falhou
                         Console.WriteLine($"Error in reservation: The check-out date" +
                         $" '{checkOutParsedDate.ToShortDateString()}' must be greater than the " +
-                        $"check -in date '{checkInReferenceDate.ToShortDateString()}'");
+                        $"check-in date '{checkInReferenceDate.ToShortDateString()}'");
                         // O loop continua, pedindo nova entrada
                     }
                 }
