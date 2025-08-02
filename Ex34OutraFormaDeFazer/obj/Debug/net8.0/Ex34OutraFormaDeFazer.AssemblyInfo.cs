@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ex34OutraFormaDeFazer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87483c6ea7d785a55b789be5cd03708de6f8a870")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e5c719774a0b35ac3aaf41bc91d5f56ab6b920f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ex34OutraFormaDeFazer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ex34OutraFormaDeFazer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

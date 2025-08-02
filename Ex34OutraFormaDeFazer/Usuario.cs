@@ -69,15 +69,15 @@ namespace Ex34OutraFormaDeFazer
                     Console.WriteLine("--------------------------------");
                 }
             }
-            catch (FileNotFoundException ex) // Captura um tipo especí­fico de erro
+            catch (FileNotFoundException ex) 
             {
                 Console.WriteLine($"Erro: Arquivo não encontrado! {ex.Message}");
             }
-            catch (UnauthorizedAccessException ex) // Captura outro tipo de erro
+            catch (UnauthorizedAccessException ex) 
             {
                 Console.WriteLine($"Erro de permissão: {ex.Message}");
             }
-            catch (Exception ex) // Captura qualquer outro erro inesperado
+            catch (Exception ex) 
             {
                 Console.WriteLine($"Ocorreu um erro inesperado: {ex.Message}");
             }
