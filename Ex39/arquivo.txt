@@ -1,0 +1,5 @@
+Computer,1,1100.0,Computers,1  
+Hammer,2,90.0,Tools,2
+TV,3,1700.0,Electronics,3
+Mouse,4,80.0,Tools,2
+Monitor,5,290.0,Electronics,3
